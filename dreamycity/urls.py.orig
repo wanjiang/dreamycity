@@ -1,7 +1,11 @@
 from django.conf.urls import patterns, include, url
+<<<<<<< HEAD
 from django.contrib import admin
+=======
 
 from django.contrib import admin
+admin.autodiscover()
+>>>>>>> 451c72747750d19494a926657850e6dfe3c356ee
 
 urlpatterns = patterns('',
     # Examples:
